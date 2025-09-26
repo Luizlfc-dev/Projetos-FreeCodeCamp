@@ -16,7 +16,8 @@ Atualmente, estou focado em obter a seguinte certificação:
 Nesta trilha, estou aprendendo as linguagens fundamentais da web: HTML para estrutura e CSS para estilização. O objetivo é construir páginas que funcionem bem em qualquer dispositivo.
 
 *Exercícios Concluídos:*
-* [Aprenda HTML criando um aplicativo de fotos de gatos](./Design-Responsivo-para-Web/Aplicativo-de-Fotos-de-Gatos/)
+* [Aprenda HTML criando um aplicativo de fotos de gatos](.Projetos-FreeCodeCamp
+/Aprenda HTML criando um aplicativo de fotos de gatos/)
 
 ---
 
