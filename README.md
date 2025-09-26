@@ -16,8 +16,7 @@ Atualmente, estou focado em obter a seguinte certificação:
 Nesta trilha, estou aprendendo as linguagens fundamentais da web: HTML para estrutura e CSS para estilização. O objetivo é construir páginas que funcionem bem em qualquer dispositivo.
 
 *Exercícios Concluídos:*
-* [Aprenda HTML criando um aplicativo de fotos de gatos](Projetos-FreeCodeCamp
-/Aprenda-HTML-criando-um-aplicativo-de-fotos-de-gatos/)
+* [Aprenda HTML criando um aplicativo de fotos de gatos](/Aprenda-HTML-criando-um-aplicativo-de-fotos-de-gatos/)
 
 ---
 
@@ -26,4 +25,6 @@ Nesta trilha, estou aprendendo as linguagens fundamentais da web: HTML para estr
 Gostaria de se conectar? Me encontre nas redes abaixo:
 
 * *LinkedIn:* [Luiz Felipe](www.linkedin.com/in/luiz-felipe-carvalho-245058344)
-* *Email:* (lf.codes2002@gmail.com)
+* *Email:* lf.codes2002@gmail.com
+* *GitHub:* [Luizlfc-dev](https://github.com/Luizlfc-dev)
+
