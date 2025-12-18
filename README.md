@@ -20,7 +20,7 @@ Nesta trilha, estou aprendendo as linguagens fundamentais da web: HTML para estr
 * [Aprenda CSS básico criando um menu de café](./Aprenda%20CSS%20básico%20criando%20um%20menu%20de%20café/)
 * [Aprenda cores em CSS criando um conjunto de marcadores coloridos](./Aprenda%20cores%20em%20CSS%20criando%20um%20conjunto%20de%20marcadores%20coloridos/)
 * [Aprenda formulários em HTML criando um formulário de registro](./Aprenda%20Formulários%20em%20HTML%20criando%20um%20formulário%20de%20registro/)
-* [Formulário de Pesquisa](./Formulário%20de%20Pesquisa/)
+* [Formulário de Pesquisa](./Formulário%20de%20Pesquisa/)gi
 
 ---
 
