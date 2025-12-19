@@ -13,14 +13,17 @@ Atualmente, estou focado em obter a seguinte certificação:
 ### Certificação de Design Responsivo para Web
 (Responsive Web Design Certification)
 
-Nesta trilha, estou aprendendo as linguagens fundamentais da web: HTML para estrutura e CSS para estilização. O objetivo é construir páginas que funcionem bem em qualquer dispositivo.
+Nesta trilha, estou aprendendo as "linguagens" fundamentais da web: HTML para estrutura e CSS para estilização. O objetivo é construir páginas que funcionem bem em qualquer dispositivo.
 
 *Exercícios Concluídos:*
 * [Aprenda HTML criando um aplicativo de fotos de gatos](./Aprenda%20HTML%20criando%20um%20aplicativo%20de%20fotos%20de%20gatos/)
 * [Aprenda CSS básico criando um menu de café](./Aprenda%20CSS%20básico%20criando%20um%20menu%20de%20café/)
 * [Aprenda cores em CSS criando um conjunto de marcadores coloridos](./Aprenda%20cores%20em%20CSS%20criando%20um%20conjunto%20de%20marcadores%20coloridos/)
 * [Aprenda formulários em HTML criando um formulário de registro](./Aprenda%20Formulários%20em%20HTML%20criando%20um%20formulário%20de%20registro/)
-* [Formulário de Pesquisa](./Formulário%20de%20Pesquisa/)gi
+* [Aprenda CSS Flexbox criando uma galeria de fotos](./Aprenda%20CSS%20Flexbox%20criando%20uma%20galeria%20de%20fotos/)
+* [Aprenda o box model do CSS criando uma pintura de Rothko](./Aprenda%20o%20box%20model%20do%20CSS%20criando%20uma%20pintura%20de%20Rothko/)
+* [Formulário de Pesquisa](./Formulário%20de%20Pesquisa/)
+* [Página de tributo](./Página%20de%20tributo/)
 
 ---
 

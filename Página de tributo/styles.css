@@ -1,0 +1,98 @@
+/* Configurações Gerais */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Elemento Main (Envolve tudo) */
+#main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+/* Estilização da Imagem (Requisitos 16, 17, 18 e 19) */
+#img-div {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 0;
+    border-radius: 4px;
+    text-align: center; /* Centraliza o caption */
+}
+
+#image {
+    display: block;      /* Requisito 16 */
+    max-width: 100%;     /* Requisito 17 */
+    height: auto;        /* Requisito 18 */
+    margin: 0 auto;      /* Requisito 19 (Centralização) */
+    border-radius: 4px;
+}
+
+#img-caption {
+    margin: 15px 0;
+    font-size: 0.95rem;
+    color: #555;
+    font-style: italic;
+}
+
+/* Informações de Tributo */
+#tribute-info {
+    max-width: 650px;
+    margin: 40px auto;
+}
+
+#tribute-info h3 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+blockquote {
+    background: #fdfdfd;
+    border-left: 5px solid #ccc;
+    padding: 10px 20px;
+    margin: 30px 0;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+#tribute-link {
+    color: #0047AB;
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
