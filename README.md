@@ -24,6 +24,7 @@ Nesta trilha, estou aprendendo as "linguagens" fundamentais da web: HTML para es
 * [Aprenda o box model do CSS criando uma pintura de Rothko](./Aprenda%20o%20box%20model%20do%20CSS%20criando%20uma%20pintura%20de%20Rothko/)
 * [Formulário de Pesquisa](./Formulário%20de%20Pesquisa/)
 * [Página de tributo](./Página%20de%20tributo/)
+* [Página de portifólio pessoal](./Página%20de%20portifólio%20pessoal/)
 
 ---
 
