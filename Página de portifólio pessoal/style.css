@@ -1,0 +1,146 @@
+/* Variáveis e Reset */
+:root {
+    --main-bg: #0f172a;
+    --accent-color: #7c3aed;
+    --text-white: #f8fafc;
+    --nav-height: 60px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--main-bg);
+    color: var(--text-white);
+}
+
+/* Barra de Navegação Fixa (Requisitos 7, 8 e 12) */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--nav-height);
+    background-color: var(--accent-color);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 50px;
+    z-index: 1000;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    transition: opacity 0.3s;
+}
+
+#navbar a:hover {
+    opacity: 0.7;
+}
+
+/* Seção de Boas-Vindas (Requisitos 1, 2 e 10) */
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Requisito: Altura igual à viewport */
+    background-image: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    text-align: center;
+}
+
+#welcome-section h1 {
+    font-size: 3.5rem;
+}
+
+/* Seção de Projetos (Requisitos 3, 4, 5 e 6) */
+#projects {
+    padding: 80px 20px;
+    background-color: #1e293b;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.project-tile {
+    background-color: #334155;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s;
+}
+
+.project-tile:hover {
+    transform: translateY(-5px);
+}
+
+.project-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.project-title {
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+/* Contato */
+#contact {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-link {
+    font-size: 1.5rem;
+    color: var(--accent-color);
+    text-decoration: none;
+    border: 2px solid var(--accent-color);
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+
+#profile-link:hover {
+    background: var(--accent-color);
+    color: white;
+}
+
+/* Media Query (Requisito 9 e 11) */
+@media (max-width: 600px) {
+    #welcome-section h1 {
+        font-size: 2.2rem;
+    }
+    
+    #navbar {
+        justify-content: center;
+        padding: 0;
+    }
+}
