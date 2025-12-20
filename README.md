@@ -22,6 +22,8 @@ Nesta trilha, estou aprendendo as "linguagens" fundamentais da web: HTML para es
 * [Aprenda formulários em HTML criando um formulário de registro](./Aprenda%20Formulários%20em%20HTML%20criando%20um%20formulário%20de%20registro/)
 * [Aprenda CSS Flexbox criando uma galeria de fotos](./Aprenda%20CSS%20Flexbox%20criando%20uma%20galeria%20de%20fotos/)
 * [Aprenda o box model do CSS criando uma pintura de Rothko](./Aprenda%20o%20box%20model%20do%20CSS%20criando%20uma%20pintura%20de%20Rothko/)
+* [Aprenda mais sobre pseudosseletores de CSS criando uma folha de saldo](./Aprenda%20mais%20sobre%20pseudosseletores%20de%20CSS%20criando%20uma%20folha%20de%20saldo/)
+* [Aprenda design responsivo para a web criando um piano](./Aprenda%20design%20responsivo%20para%20a%20web%20criando%20um%20piano/)
 * [Formulário de Pesquisa](./Formulário%20de%20Pesquisa/)
 * [Página de tributo](./Página%20de%20tributo/)
 * [Página de portifólio pessoal](./Página%20de%20portifólio%20pessoal/)
