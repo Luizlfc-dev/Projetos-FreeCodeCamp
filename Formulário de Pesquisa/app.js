@@ -1,9 +1,9 @@
-import React from "https://esm.sh/react@18";
-import { createRoot } from "https://esm.sh/react-dom@18/client";
-import htm from "https://esm.sh/htm@3.1.1";
-import { HashRouter, Routes, Route, NavLink } from "https://esm.sh/react-router-dom@6.30.1";
-import { Formik, Form, Field, ErrorMessage } from "https://esm.sh/formik@2.4.6";
-import * as Yup from "https://esm.sh/yup@1.4.0";
+import React from "https://esm.sh/react@18.3.1?dev&target=es2020";
+import { createRoot } from "https://esm.sh/react-dom@18.3.1/client?dev&target=es2020";
+import htm from "https://esm.sh/htm@3.1.1?dev&target=es2020";
+import { HashRouter, Routes, Route, NavLink } from "https://esm.sh/react-router-dom@6.30.1?dev&target=es2020&deps=react@18.3.1,react-dom@18.3.1";
+import { Formik, Form, Field, ErrorMessage } from "https://esm.sh/formik@2.4.6?dev&target=es2020&deps=react@18.3.1";
+import * as Yup from "https://esm.sh/yup@1.4.0?dev&target=es2020";
 
 const html = htm.bind(React.createElement);
 
