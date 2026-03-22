@@ -3,6 +3,7 @@
     --background-color: #f4f7f6;
     --text-color: #333;
     --form-bg: #ffffff;
+    --error-color: #c62828;
 }
 
 body {
@@ -10,32 +11,54 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     margin: 0;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+    padding: 20px 12px;
 }
 
 .container {
     width: 100%;
-    max-width: 600px;
+    max-width: 760px;
+    margin: 0 auto;
 }
 
-header {
+.site-header {
     text-align: center;
     margin-bottom: 30px;
 }
 
-#title {
+.site-header h1 {
     margin-bottom: 10px;
     color: #2c3e50;
 }
 
-#description {
+.site-header p {
     font-style: italic;
     color: #7f8c8d;
 }
 
-#survey-form {
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #1e3a56;
+    border: 1px solid #b5c8db;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.nav a.active {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+}
+
+.card {
     background: var(--form-bg);
     padding: 30px;
     border-radius: 10px;
@@ -71,6 +94,12 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
+.inline-option {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
 textarea {
     min-height: 100px;
     resize: vertical;
@@ -93,9 +122,27 @@ textarea {
     background-color: #357abd;
 }
 
+#submit:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.error {
+    margin-top: 6px;
+    display: block;
+    color: var(--error-color);
+    font-size: 0.9rem;
+}
+
+small {
+    display: block;
+    margin-top: 8px;
+    color: #5f6b75;
+}
+
 /* Responsividade simples */
 @media (max-width: 480px) {
-    #survey-form {
+    .card {
         padding: 20px;
     }
 }
