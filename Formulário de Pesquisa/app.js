@@ -1,19 +1,30 @@
-const { HashRouter, Routes, Route, NavLink } = ReactRouterDOM;
-const { Formik, Form, Field, ErrorMessage } = formik;
+const routerLib = window.ReactRouterDOM;
+const formikLib = window.formik || window.Formik;
+const yupLib = window.yup || window.Yup;
 
-const validationSchema = yup.object({
-  name: yup.string().min(3, "Informe pelo menos 3 caracteres.").required("Nome é obrigatório."),
-  email: yup.string().email("E-mail inválido.").required("E-mail é obrigatório."),
-  age: yup
+if (!routerLib || !formikLib || !yupLib) {
+  const rootFallback = document.getElementById("root");
+  rootFallback.innerHTML =
+    '<div style="max-width:760px;margin:32px auto;padding:16px;border:1px solid #ddd;background:#fff;border-radius:8px;font-family:Segoe UI,sans-serif;">Falha ao carregar bibliotecas React/Formik/Yup. Verifique conexao com internet e recarregue a pagina (Ctrl+F5).</div>';
+  throw new Error("Bibliotecas CDN nao carregadas.");
+}
+
+const { HashRouter, Routes, Route, NavLink } = routerLib;
+const { Formik, Form, Field, ErrorMessage } = formikLib;
+
+const validationSchema = yupLib.object({
+  name: yupLib.string().min(3, "Informe pelo menos 3 caracteres.").required("Nome é obrigatório."),
+  email: yupLib.string().email("E-mail inválido.").required("E-mail é obrigatório."),
+  age: yupLib
     .number()
     .transform((value, originalValue) => (originalValue === "" ? null : value))
     .nullable()
     .min(10, "Idade mínima: 10.")
     .max(99, "Idade máxima: 99."),
-  stack: yup.string().required("Selecione sua stack principal."),
-  level: yup.string().required("Selecione seu nível de senioridade."),
-  skills: yup.array().min(1, "Selecione ao menos 1 interesse."),
-  comments: yup.string().max(400, "Máximo de 400 caracteres.")
+  stack: yupLib.string().required("Selecione sua stack principal."),
+  level: yupLib.string().required("Selecione seu nível de senioridade."),
+  skills: yupLib.array().min(1, "Selecione ao menos 1 interesse."),
+  comments: yupLib.string().max(400, "Máximo de 400 caracteres.")
 });
 
 function Layout({ children }) {
